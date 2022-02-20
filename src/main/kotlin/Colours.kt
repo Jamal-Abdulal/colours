@@ -4,7 +4,7 @@ class Colours {
 
     fun getAll (): List<String>{
         //TODO return the colours list
-        return listOf("Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet", "Black", "Silver")
+        return colours
     }
 
     fun numberOfColours (): Int {
@@ -29,7 +29,7 @@ class Colours {
 
     fun coloursInAllCapitals() : List<String>{
         //TODO return the colours in ALL CAPS
-        return listOf("this should return colours in all capitals")
+        return listOf(colours.toString().uppercase())
     }
 
     fun coloursStartingWithLetter(letter: Char) : List<String>{

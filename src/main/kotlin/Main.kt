@@ -33,8 +33,8 @@ fun main(args: Array<String>){
     println("Sorted list is: "+colours.coloursInAplhabeticOrder())
 
 
-    print("CAPITALISED list is:")
-    print(colours.coloursInAllCapitals())
+    println("CAPITALISED list is:" +colours.coloursInAllCapitals())
+
 
     println("Colours starting with specific letter ___ [ B was chosen ]")
     print(colours.coloursStartingWithLetter('B'))
