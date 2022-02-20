@@ -69,4 +69,8 @@ class Colours {
         //TODO return the colours in ALL CAPS
         return listOf(colours.toString().lowercase())
     }
+    fun coloursInreverse(): List<String> {
+        //TODO return the colours in ALL CAPS
+        return colours.reversed()
+    }
 }
