@@ -24,10 +24,10 @@ fun main(args: Array<String>){
 
     println("The List has " +colours.numberOfColours()+ " elements stored")
 
-    print("___ is the first colour in the list")
-    println(colours.firstColour())
+    println( colours.firstColour()+" is the first colour in the list")
 
-    print("___ is the last colour in the list")
+
+    println("___ is the last colour in the list")
     print(colours.lastColour())
 
     println("Sorted list is: ")
