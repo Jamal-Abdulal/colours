@@ -56,5 +56,5 @@ fun main(args: Array<String>){
     //    Colour: Silver
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
-
+    println(colours.colourExists("pink"))
 }
