@@ -65,4 +65,8 @@ class Colours {
         }
 
     }
+    fun coloursInAllLower(): List<String> {
+        //TODO return the colours in ALL CAPS
+        return listOf(colours.toString().lowercase())
+    }
 }

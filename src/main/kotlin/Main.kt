@@ -57,4 +57,5 @@ fun main(args: Array<String>){
 
     //TODO for the three additional functions you wrote in Colours.kt, print the returned value here.
     println(colours.colourExists("pink"))
+    println("lowercase list is:" +colours.coloursInAllLower())
 }
